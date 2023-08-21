@@ -7,8 +7,8 @@ public class Encapsulation {
 
 	}
 	
-	 public void doWork() { // doWork wala function har jagah available h
-		System.out.println("working!!");
+	 public void doWork() { // [doWork wala function har jagah available h.]
+		System.out.println("working working!!!");
 	}
 
 }
