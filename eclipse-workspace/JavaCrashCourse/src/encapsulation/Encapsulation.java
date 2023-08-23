@@ -14,7 +14,7 @@ public class Encapsulation {
 //	private void doWork() { // Using Access Modifiers
 //		// jab private krte h kisi variable ya function ko then you will not see this in Encapsulation.java package
 //		// private ki help se aap is class ke under hi cheejo ko access kr skte h
-//		System.out.println("/Person is working");
+//		  System.out.println("/Person is working");
 //	}
 
 }
