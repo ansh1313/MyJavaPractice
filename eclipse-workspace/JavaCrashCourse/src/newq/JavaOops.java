@@ -49,7 +49,8 @@ class Developer extends Person { // person ke jo bhi properties hongi vo develop
 }
 
 class Person{ //  class person runtime ki memory me koi jagah ni legi but program ki memory me jagah legi
-	String name;
+	protected String name; // protected means ki parent ki property sirf child class ko mille.
+	// hum name ko sirf iske children(means developer) ko access dena chahte h.
 	int age;
 	static int count; // static means ab ye class ki property h, object ki property ni h 
 	// static ki help se class ke objects and properties bana skte ho.
@@ -92,4 +93,5 @@ class Person{ //  class person runtime ki memory me koi jagah ni legi but progra
 	void doWork() {
 		System.out.println("Person is working");
 	}
+	
 }
